@@ -1,0 +1,13 @@
+﻿@model Ifound.Models.Student
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Index</h2>
+
+@using (Html.BeginForm("Test", "TestPost", FormMethod.Post))
+{
+    <input type="submit" value="submit">
+}
